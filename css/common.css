@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+.fullbg{
+    background-color:rgba(0,0,0,0.8);
+    left:0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.hide{
+    display: none;
+}
+.u-arrow {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #FF6900;
+    border-right: 2px solid #FF6900;
+    margin-left: 3px;
+}
+
+.u-arrow-up {
+    transform: rotate(-45deg);
+}
+
+.u-arrow-down {
+    transform: rotate(135deg);
+}
+
+.u-arrow-left {
+    transform: rotate(-135deg);
+}
+
+.u-arrow-right {
+    transform: rotate(45deg);
+}

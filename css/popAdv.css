@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-image:url("../images/background.jpg");
+    background-size: cover;
+}
+
+#div_popAdv{
+    width: 100%;
+    height:100%;
+}
+.i_pop_close{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    color: #FFFFFF;
+}
+.i_pop_close:hover{
+    cursor: pointer;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* Internet Explorer */
+    -moz-transform:rotate(45deg); /* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(45deg);
+    transition: transform 300ms;
+}
+#div_popAdvContent{
+    width: 290px;
+    height: 447px;
+    margin: 100px auto;
+    background-image: url(../images/adv.png);
+    background-color:#1E1E1E;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+#a_popBtn{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #FE6400;
+    display: block;
+    bottom: 10px;
+    left: 90px;
+    position: absolute;
+    background-color: #FE6400;
+    border-radius: 20px;
+    color: #AC1715;
+}
+#a_popBtn:hover{
+    color: #FED7C1;
+}

@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $(".head_li_itemright").mouseenter(function(){
+        $(this).addClass("li_color");
+    });
+    $(".head_li_itemright").mouseleave(function(){
+        $(this).removeClass("li_color");
+    });
+    $("li[name='li_list']").mouseenter(function(){
+        $(this).find("ul").eq(0).slideToggle(400);
+    })
+    $("li[name='li_list']").mouseleave(function(){
+        $(this).find("ul").eq(0).slideToggle(400);
+    })
+})

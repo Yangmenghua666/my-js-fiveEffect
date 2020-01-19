@@ -1,0 +1,51 @@
+.div_Carousel{
+    height: 300px;
+    width: 302px;
+    position: relative;
+    overflow: hidden;
+}
+.div_Carousel:hover{
+    cursor: pointer;
+}
+.ul_Carousel_content{
+    list-style-type: none;
+    font-size: 13px;
+    color: #A7A7A7;
+    margin-left: -35px;
+}
+.ul_Carousel_content li:nth-child(1){
+    margin-top: 0px;
+}
+.ul_Carousel_content li{
+    margin-top: 3px;
+}
+.ul_Carousel_content li:hover{
+    color: #50B9FF;
+}
+.ul_Carousel_content li span:nth-child(1){
+    margin-left: 0px;
+}
+.ul_Carousel_content li span:nth-child(2){
+    width: 106px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.ul_Carousel_content li span{
+    margin-left: 20px;
+}
+.carousel{
+    animation-name: up-down-carousel;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes up-down-carousel{
+    0.0%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: -150px;
+    }
+}

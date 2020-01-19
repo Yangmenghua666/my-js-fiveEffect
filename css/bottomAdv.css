@@ -1,0 +1,153 @@
+#div_container{
+    background-image: url("../images/webExample.png");
+    background-size: cover;
+    width: 100%;
+    height: 3392px;
+}
+
+.div_bottom_content{
+    width: max-content;
+    bottom: 0px;
+    position: fixed;
+    color: #FFFFFF;
+    height: 132px;
+}
+.div_left_tag{
+    background-image: url(../images/manager_left_tag.png);
+    width: 118px;
+    height: 76px;
+    position: relative;
+    background-size: cover;
+    margin-top: 45px;
+    animation-name: leftTag_jump;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    float: left;
+}
+@keyframes leftTag_jump{
+    0.0%{
+        transform:rotateZ(0deg);
+    }
+    25.0%{
+        transform:rotateZ(40deg);
+    }
+    50.0%{
+        transform: rotateZ(0deg);
+    }
+    75.0%{
+        transform: rotateZ(-40deg);
+    }
+    100.0%{
+        transform:rotateZ(0deg);
+    }
+}
+.div_left_tag:hover{
+    cursor: pointer;
+}
+.div_bottom{
+    position: fixed; 
+    left:0; 
+    bottom: 0; 
+    width:100%;
+    margin: 0px;
+    height: 160px;
+    display: none;
+}
+.div_bottom_detail{
+    position: relative;
+    left:0; 
+    top:40px;
+    width:100%;
+    margin: 0px;
+    height: 132px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.div_bottom_adv{
+    width: 1350px;
+    height: 210px;
+}
+.span_manager_img{
+    width: 405px;
+    height: 210px;
+    margin-top: -76px;
+    margin-left: 200px;
+    background-image: url(../images/manager.png);
+    float: left;
+}
+.span_right_submit{
+    width: 340px;
+    height: 132px;
+    display: inline-block;
+    margin-left: 200px;
+    position: relative;
+    margin-top: 20px;
+}
+.input_mobile{
+    width: 315px;
+    height: 32px;
+    border: 0px;
+    color: #A7A7A7;
+    font-size: 12px;
+    background: #FFFFFF;
+    outline:none;
+    padding-left: 20px;
+}
+.i_mobile_icon{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+.i_mobile_icon::before{
+    content: "\f10b";
+    width: 28px;
+    height: 32px;
+    color: #A7A7A7;
+    font-size: 20px;
+}
+.sumbit_formeService{
+    width: 153px;
+    height: 32px;
+    background-color: #EE733F;
+    font-weight: 500;
+    border: 1px solid #EE733F;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    outline: none;
+}
+.sumbit_formeService:hover{
+    cursor: pointer;
+}
+/* 在线咨询 */
+.span_onlineSay{
+    width: 152px;
+    height: 32px;
+    background-color: #1DC8A0;
+    border: 1px solid #1DC8A0;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.span_onlineSay:hover{
+    cursor: pointer;
+}
+.span_onlineSay img{
+    position: relative;
+    top: 2px;
+}
+.span_close{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../images/close.png);
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.span_close:hover{
+    cursor: pointer;
+}

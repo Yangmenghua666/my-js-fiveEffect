@@ -1,0 +1,77 @@
+#head_nav{
+    width: max-content;
+}
+ul{
+    list-style-type: none;
+}
+#ul_first>li{
+    float: left;
+    margin-left: 20px;
+}
+.head_li_item,.head_li_itemright{
+    font-size: 18px;
+    position: relative;
+}
+.head_li_item:hover .u-arrow-up,.head_li_itemright:hover .u-arrow-up{
+    transform: rotate(135deg);
+    border-top: 2px solid #FF6900;
+    border-right: 2px solid #FF6900;
+}
+.head_li_itemright>a{
+    color: #1E1E1E;
+}
+#ul_first a{
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+}
+/* 第一层级中需要初始化也是的li */
+#ul_first>.li_color>a{
+    color: #FF6900;
+}
+/* 分割线 */
+.head_li_split{
+    color: #E7E7E7;
+    font-weight: 600;
+    font-size: 18px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+}
+.a_index{
+    background-color: #FF6900;
+    width: 66px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    color: #1E1E1E;
+}
+.i_color{
+    border-top: 2px solid #1E1E1E;
+    border-right: 2px solid #1E1E1E;
+}
+.a_index:hover{
+    color: #FFFFFF;
+}
+
+/* 二级导航栏 */
+.ul_second{
+    display: none;
+    position: absolute;
+}
+.second_li_item{
+    margin-left: -40px;
+    width: 90px;
+    font-size: 14px;
+    color: #1E1E1E;
+    height: 30px;
+}
+.second_li_item>a{
+    color: #8D8D8D;
+}
+.second_li_item>a:hover{
+    color: #FF6900;
+}

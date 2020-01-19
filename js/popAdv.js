@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    if(!sessionStorage.getItem("isReload")){
+        $("#div_popAdv").show(500);
+        sessionStorage.setItem("isReload",true);
+    }
+});
+$(".i_pop_close").click(function(){
+    $("#div_popAdv").hide(600);
+});
